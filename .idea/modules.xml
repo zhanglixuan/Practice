@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssm/maven_controller/maven_controller.iml" filepath="$PROJECT_DIR$/maven_ssm/maven_controller/maven_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssm/maven_dao/maven_dao.iml" filepath="$PROJECT_DIR$/maven_ssm/maven_dao/maven_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssm/maven_pojo/maven_pojo.iml" filepath="$PROJECT_DIR$/maven_ssm/maven_pojo/maven_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssm/maven_service/maven_service.iml" filepath="$PROJECT_DIR$/maven_ssm/maven_service/maven_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_ssm/maven_ssm.iml" filepath="$PROJECT_DIR$/maven_ssm/maven_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-junit/springboot-junit.iml" filepath="$PROJECT_DIR$/springboot-junit/springboot-junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../practice/springboot-mp/springboot-mp.iml" filepath="$PROJECT_DIR$/../practice/springboot-mp/springboot-mp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-quickstart/springboot-quickstart.iml" filepath="$PROJECT_DIR$/springboot-quickstart/springboot-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-ssm/springboot-ssm.iml" filepath="$PROJECT_DIR$/springboot-ssm/springboot-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-demo/tomcat-demo.iml" filepath="$PROJECT_DIR$/tomcat-demo/tomcat-demo.iml" />
+    </modules>
+  </component>
+</project>

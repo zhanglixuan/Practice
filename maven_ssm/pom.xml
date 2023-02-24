@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>maven_ssm</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>maven_pojo</module>
+        <module>maven_dao</module>
+        <module>maven_service</module>
+        <module>maven_controller</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <!--配置多环境-->
+    <profiles>
+        <!--开发者环境-->
+        <profile>
+            <id>env_dep</id>
+            <properties>
+                <jdbc.url>dbc:mysql://localhost:3306/mybatis</jdbc.url>
+            </properties>
+            <!--设定是否为默认启动环境-->
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <!--测试环境-->
+        <profile>
+            <id>env_test</id>
+            <properties>
+                <jdbc.url>dbc:mysql://localhost:3306/mybatis</jdbc.url>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>

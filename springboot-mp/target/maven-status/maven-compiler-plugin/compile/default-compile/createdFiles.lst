@@ -1,0 +1,3 @@
+com\example\SpringbootMpApplication.class
+com\example\dao\BookDao.class
+com\example\domain\Book.class

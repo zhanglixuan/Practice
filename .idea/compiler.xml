@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-ssm" />
+        <module name="springdemo" />
+        <module name="tomcat-demo" />
+        <module name="springboot-quickstart" />
+        <module name="ssm" />
+        <module name="maven_controller" />
+        <module name="spring-mybatis" />
+        <module name="spring-demo" />
+        <module name="maven_pojo" />
+        <module name="springboot-junit" />
+        <module name="maven_dao" />
+        <module name="mybatis-demo" />
+        <module name="maven_service" />
+        <module name="springboot-mybatis" />
+        <module name="springboot-mp" />
+        <module name="springmvc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jsp-demo" target="1.5" />
+      <module name="maven_controller" target="8" />
+      <module name="maven_dao" target="8" />
+      <module name="maven_pojo" target="8" />
+      <module name="maven_service" target="8" />
+      <module name="maven_ssm" target="8" />
+      <module name="mybatis-demo" target="1.5" />
+      <module name="spring-demo" target="1.5" />
+      <module name="spring-mybatis" target="1.5" />
+      <module name="springboot-junit" target="1.6" />
+      <module name="springboot-mp" target="1.8" />
+      <module name="springboot-mybatis" target="1.6" />
+      <module name="springboot-quickstart" target="1.6" />
+      <module name="springboot-ssm" target="1.8" />
+      <module name="springdemo" target="1.5" />
+      <module name="springmvc" target="1.5" />
+      <module name="ssm" target="8" />
+      <module name="test" target="1.5" />
+      <module name="tomcat-demo" target="1.5" />
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-junit" options="-parameters" />
+      <module name="springboot-mp" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-quickstart" options="-parameters" />
+      <module name="springboot-ssm" options="-parameters" />
+    </option>
+  </component>
+</project>
