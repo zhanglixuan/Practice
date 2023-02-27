@@ -1,6 +1,0 @@
-com\example\aop\MyAdvice.class
-com\example\config\JdbcConfig.class
-com\example\service\BookService.class
-com\example\service\impl\BookServiceImpl.class
-com\example\aop\DataAdvice.class
-com\example\config\SpringConfigService.class

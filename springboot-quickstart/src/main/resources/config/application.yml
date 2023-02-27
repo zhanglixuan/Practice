@@ -24,7 +24,7 @@ server:
 lesson: SpringBoot
 
 enterprise:
-  name: itcast
+  name: it
   age: 16
   tel: 4006184000
   subject:

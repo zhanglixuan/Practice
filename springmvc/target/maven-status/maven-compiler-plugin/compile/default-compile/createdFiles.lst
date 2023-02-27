@@ -1,6 +1,0 @@
-com\example\controller\BookController.class
-com\example\config\SpringMvcConfig.class
-com\example\domain\Address.class
-com\example\config\ServletContainerInitConfig.class
-com\example\controller\UserController.class
-com\example\domain\User.class

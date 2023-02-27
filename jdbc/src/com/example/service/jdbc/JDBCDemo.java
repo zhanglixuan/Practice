@@ -15,7 +15,7 @@ public class JDBCDemo {
         Class.forName("com.mysql.jdbc.Driver");
         String url = "jdbc:mysql://127.0.0.1:3306/test?useSSL=false&serverTimezone=Asia/Shanghai&useTimezone=true";
         String user = "root";
-        String password = "mily5yue23ri.";
+        String password = "root";
         //获取连接
         Connection connection = DriverManager.getConnection(url, user, password);
 //      //定义sql语句

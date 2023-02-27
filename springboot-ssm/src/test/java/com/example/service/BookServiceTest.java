@@ -1,5 +1,6 @@
 package com.example.service;
 
+import com.example.SpringbootSsmApplication;
 import com.example.domain.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +12,7 @@ import java.util.List;
 * @author 张丽璇
 * @date 2023/2/22
 */
-@SpringBootTest
+@SpringBootTest(classes = SpringbootSsmApplication.class)
 public class BookServiceTest {
 	@Autowired
 	private BookService bookService;

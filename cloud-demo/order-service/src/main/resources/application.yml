@@ -1,0 +1,36 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+  main:
+    banner-mode: off
+  application:
+    name: orderservice
+  cloud:
+    nacos: #nacos服务地址
+      server-addr: http://127.0.0.1:8848
+#eureka:
+#  client:
+#    service-url: #eureka服务地址
+#      defaultZone: http://127.0.0.1:10086/eureka
+userservice:
+  ribbon:     #优先寻找与自己同集群的服务
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  global-config:
+    banner: false
+    db-config:
+      table-prefix: tb_
+ribbon:
+  eager-load:
+    enabled: true  #默认懒加载  设为true开启饥饿加载

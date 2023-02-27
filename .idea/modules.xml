@@ -13,7 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-junit/springboot-junit.iml" filepath="$PROJECT_DIR$/springboot-junit/springboot-junit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../practice/springboot-mp/springboot-mp.iml" filepath="$PROJECT_DIR$/../practice/springboot-mp/springboot-mp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mp/springboot-mp.iml" filepath="$PROJECT_DIR$/springboot-mp/springboot-mp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-quickstart/springboot-quickstart.iml" filepath="$PROJECT_DIR$/springboot-quickstart/springboot-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-ssm/springboot-ssm.iml" filepath="$PROJECT_DIR$/springboot-ssm/springboot-ssm.iml" />
