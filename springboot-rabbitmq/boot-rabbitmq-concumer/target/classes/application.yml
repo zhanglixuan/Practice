@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: 106.12.132.227
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual  #手动确认模式
+        prefetch: 1 #表示消费端每次最多从mq中拉取一条消息消费，直到手动确认消费完毕后才会继续去拉下一条

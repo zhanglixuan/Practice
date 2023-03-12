@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 106.12.132.227
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-confirm-type: correlated
+                              #开启发布确认模式(成功或失败都会触发ConfirmCallback)
+                              # simple 只有在成功的时候才会触发ConfirmCallback
+                              #none 禁用确认模式，成功或失败都不会触发ConfirmCallBack
+    publisher-returns: true
+    template:
+      mandatory: true
